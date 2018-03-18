@@ -1,0 +1,33 @@
+{
+    "name": "f2m2/request-notification-channel",
+    "description": "Request Notifications driver",
+    "homepage": "https://github.com/f2m2/request-notification-channel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "F2M2, Inc.",
+            "email": "hello@f2m2.com",
+            "homepage": "http://www.f2m2.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/notifications": "5.3.*|5.4.*|5.5.*|5.6.*",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*|~6.0",
+        "orchestra/testbench": "3.3.x-dev|^3.5.0",
+        "orchestra/database": "3.3.x-dev|^3.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "F2M2\\NotificationChannel\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
