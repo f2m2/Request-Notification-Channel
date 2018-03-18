@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "F2M2\\NotificationChannel\\": "src"
+            "F2M2\\RequestNotification\\": "src"
         }
     },
     "config": {
