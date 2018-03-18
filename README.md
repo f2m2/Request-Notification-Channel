@@ -41,7 +41,7 @@ class MyNotification extends Notification
 Add the `routeNotificationForRequestNotification` method to your Notifiable Model, which should return the URL where the notification will call the request.
 
 ```php
-public function routeNotificationForWebhook()
+public function routeNotificationForRequestNotification()
 {
     return 'http://httpbin.org/post';
 }
